@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: black ;
+    color: tan
+}
+
+/*CALENDRIER */
+table {
+    width: 100vw;
+    height: 100vh;
+    align-self: center;
+    background-color: black;
+    border-collapse: collapse;
+    margin: 0;
+}
+.titleCalendar{
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: tan;
+    font-weight: 100;
+}
+.titleCalendar::first-letter{
+    font-size:150px;
+}
+td {
+    height: 30px;
+    width: 30px;
+}
+td, tr {
+    border: 3px solid tan;
+}
+.blank {
+    background-color: rgba(39, 39, 39, 0.808);
+}
+.days td {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    background-color: tan;
+}
+.numOfDay {
+    font-size: 2em;
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+}
+/*FORMULAIRE*/
+h1 {
+    text-align: center;
+}
+legend {
+    font-size: 10em;
+    text-align: center;
+}
+form {
+    width: 100vw;
+    border: 1px solid black;
+    text-align: center;
+}
+fieldset {
+    border: 1px solid black;
+}
+select {
+    width: 80px;
+    height: 80px;
+}
+select option {
+    height: 100px;
+    font-size: 1em;
+}
+input {
+    width: 80px;
+    height: 80px;
+    background-color: tan;
+}
+@media screen and (max-width: 1240px){
+    legend {
+        font-size: 2em;
+        text-align: center;
+    }
+    .titleCalendar {
+        font-size: 2em;
+        text-align: center;
+    }
+}
